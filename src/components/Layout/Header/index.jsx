@@ -1,8 +1,20 @@
+import React from "react"
+
+
 export default function Header () {
 
     return (
         <>
-        <div className="bg-gray-500">Header</div>
+        <div className="header">
+            <div className="grid_container">
+                <div className="header_headerInner">
+                    <button className="HamburgerButton_hamburger"></button>
+                    <input className="border-2 rounded-md border-rose-500 p-1 w-full" required placeholder="find your med"/>
+                    {/* <a className="header_logo" href="#" ></a> */}
+                </div>
+            </div>
+
+        </div>
         </>
     )
 }
