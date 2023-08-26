@@ -1,7 +1,7 @@
 export default function Sidebar() {
-
-    return (
-        <>
-        <div className="">Sidebar</div></>
-    )
+  return (
+    <div>
+      <h1>Sidebar</h1>
+    </div>
+  );
 }
