@@ -30,7 +30,9 @@ export default function HomePage() {
         </div>
       </header>
 
-      <main></main>
+      <main>
+        <p>Infomation about ...</p>
+      </main>
 
       <footer className="bg-gray-200 p-4 text-center mt-auto">
         <p>&copy; 2023 MedTech. All rights reserved.</p>
