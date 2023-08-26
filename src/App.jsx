@@ -1,12 +1,9 @@
-import Layout from "./components/Layout"
-import './App.css';
+import AppRouter from "./Router";
 
 export default function App() {
   return (
-    <div className="App">
-      <Layout></Layout>
+    <div className="bg-[#EFF6FF]">
+      <AppRouter />
     </div>
   );
 }
-
-

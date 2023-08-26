@@ -9,8 +9,7 @@ export default function Header () {
             <div className="grid_container">
                 <div className="header_headerInner">
                     <button className="HamburgerButton_hamburger"></button>
-                    <input className="border-2 rounded-md border-rose-500 p-1 w-full" required placeholder="find your med"/>
-                    {/* <a className="header_logo" href="#" ></a> */}
+                    <input className="border-2 rounded-md border-rose-500 p-1 w-full" required placeholder="find your medicine"/>
                 </div>
             </div>
 
